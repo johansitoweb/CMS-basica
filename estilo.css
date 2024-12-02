@@ -1,0 +1,28 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 20px;  
+}  
+
+.dark-mode {  
+    background-color: #121212;  
+    color: #ffffff;  
+}  
+
+h1, h2 {  
+    color: inherit; /* Se ajusta al modo claro/oscuro */  
+}  
+
+/* Ajustes para imágenes */  
+img {  
+    max-width: 100%; /* Asegura que las imágenes se adapten al contenedor */  
+    height: auto;  
+}  
+
+/* Botón de Modo Oscuro */  
+.switch-mode {  
+    cursor: pointer;  
+    padding: 10px;  
+    background-color: #007BFF;  
+    border: none;  
+    color: white;  
+}
